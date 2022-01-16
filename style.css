@@ -1,0 +1,126 @@
+/* -----------------------------------------------------------------------------------font-------------------------------------- -------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.sec-1 {
+  display: flex;
+  align-items: center;
+}
+.order-1 {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #e02c6d;
+  border-radius: 41px;
+  padding: 10px 24px;
+}
+.see-more{height: 100px;
+  width: 80%;
+  margin: auto; }
+
+
+.see-more-button{
+  text-decoration: none;
+  color: #E02C6D;
+  float: right;
+  margin-top: 40px;
+ font-size: 25px;
+
+}
+
+.price {
+  margin: 6px;
+  font-size: 24px;
+}
+.reting {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0px;
+}
+.fast-name {
+  margin-top: 50px;
+}
+.dsr {
+  margin-bottom: 30px;
+}
+.populer-coll {
+  text-align: center;
+  margin: 40px 0px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.item-banner {
+  width: 300px;
+  height: 256px;
+}
+
+#see-more-icon{
+  color: black;
+}
+
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star-half-alt.empty {
+  color: #fb8200;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star-half-alt {
+  font-size: 12px;
+}
+.item {
+  background: #ffffff;
+  box-shadow: 10px 10px 10px rgb(151, 150, 150);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footer-div{
+  color: #ffffff;
+  display: block;
+  background-color: black;
+ align-items: center;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: auto;
+  }
+  .sec-1 {
+    flex-wrap: wrap;
+  }
+}
+.camere-sec1 {
+  width: 100%;
+}
